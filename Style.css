@@ -1,0 +1,80 @@
+.header{
+
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    animation: example 8s infinite;
+}
+h1{
+
+    margin-left: 30px;
+
+}
+a:link{color:green}
+a:visited{color: beige}
+@keyframes example {
+    from {background-color: blue;}
+    to {background-color: yellow;}
+
+  }
+.game{
+
+    background-color: #808080;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.text1{
+
+    background: cadetblue;
+    text-align: center;
+
+}
+.media{
+
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.shadow{
+
+    text-shadow: 2px 2px red;
+
+}
+.name{
+
+    margin-right: 50px;
+
+}
+.text1{
+
+    position: relative;
+
+}
+.text1 p{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.text1:hover p{
+
+    opacity: 1;
+
+}
+.text1:hover img{
+
+    opacity: 0.33;
+
+}
+body{
+
+    background: rgb(128,128,128);
+
+}
+    h1 {color: rgb(128,128,128)}
